@@ -1,11 +1,11 @@
 {
   "name": "@chrissybarrett/gulp-test",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a package for testing gulp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node greet.js"
+    "start": "node gulpfile.js"
   },
   "author": "",
   "license": "MIT",
