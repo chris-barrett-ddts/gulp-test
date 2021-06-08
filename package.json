@@ -4,12 +4,8 @@
   "description": "a package for testing gulp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node gulpfile.js"
+    "postinstall": "node copyFile.js"
   },
   "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "gulp": "^4.0.2"
-  }
+  "license": "MIT"
 }
