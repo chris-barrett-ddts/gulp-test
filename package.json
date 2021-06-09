@@ -1,11 +1,15 @@
 {
   "name": "@chrissybarrett/gulp-test",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "a package for testing gulp",
   "main": "index.js",
   "scripts": {
     "postinstall": "node copyFile.js"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chris-barrett-ddts/gulp-test"
+  }
 }
